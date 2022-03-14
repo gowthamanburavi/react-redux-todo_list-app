@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import { FaEdit, FaSave } from "react-icons/fa";
+import React, { useRef } from "react";
+import { FaEdit } from "react-icons/fa";
 import { IoCheckmarkDoneSharp, IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 
@@ -62,7 +62,7 @@ export const TodosItem = (props) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => changeFocus()}
-            // style={editStyle}
+          // style={editStyle}
           >
             <FaEdit />
           </motion.button>
